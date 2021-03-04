@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Abril Fatface', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, .card-body>.card-title {
+  font-family: 'Domine', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 1.5 rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+h2 {
+  color: #3046C5;
+}
+
+.card-img-overlay .card-title {
+  
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer {
+  background-color:#2b2b2b;
+  padding: 20px 0;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-color:#2b2b2b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.jumbotron h2 {
+  color: #CEC8FF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-dark {
+  background-color:#2b2b2b;
+}
+.bid {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  background: #960000;
+ 
 }
